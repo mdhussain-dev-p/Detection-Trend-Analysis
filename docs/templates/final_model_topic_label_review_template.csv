@@ -1,0 +1,11 @@
+﻿topic_number_final_model,provisional_label,top_terms_from_final_model,reviewer_confirmed_label,distinct_from_other_topics,representative_papers_reviewed,reviewer_notes,review_date
+1,Supervised learning,"data, distribution, label, sample, class, method, learning, representation, supervised, classification, task, domain",,,,,
+2,Adversarial robustness,"adversarial, attack, robustness, perturbation, defense, robust, example, training, model, box, input, vulnerable",,,,,
+3,Predictive and general ML,"data, model, prediction, machine, time, system, series, learning, application, research, real, based",,,,,
+4,Bandits and online optimisation,"bound, regret, algorithm, bandit, optimal, setting, lower, online, upper, problem, sqrt, arm",,,,,
+5,Reinforcement learning,"policy, rl, agent, reinforcement, environment, reward, learning, action, control, state, task, algorithm",,,,,
+6,Gradient-based optimisation,"gradient, optimization, convergence, function, algorithm, descent, problem, stochastic, method, convex, rate, loss",,,,,
+7,Deep neural networks,"network, neural, deep, layer, architecture, activation, training, weight, input, convolutional, accuracy, function",,,,,
+8,Federated learning,"federated, fl, client, privacy, communication, local, distributed, server, data, device, learning, global",,,,,
+9,Graph neural networks,"graph, node, gnns, gnn, representation, structure, network, information, edge, embedding, task, message",,,,,
+10,Large language models,"language, model, llm, large, task, transformer, fine, tuning, code, training, github, memory",,,,,
