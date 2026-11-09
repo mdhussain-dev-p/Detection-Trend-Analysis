@@ -1,0 +1,169 @@
+{
+  "phase": "Phase 10B - yearly topic trend analysis",
+  "status": "completed",
+  "dataset": {
+    "source": "Filtered arXiv cs.LG metadata",
+    "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "total_documents": 87945,
+    "modelled_documents": 87944,
+    "unassigned_documents": 1,
+    "topic_count": 10
+  },
+  "methodology": {
+    "dominant_topic_share": "Percentage of modelled papers in a year whose largest normalised NMF activation belongs to that topic.",
+    "mean_topic_activation_share": "Average normalised NMF activation for a topic across all modelled papers in a year. The ten topic shares sum to 100 percent for each year.",
+    "normalisation": "Topic activations are normalised within each document. They are not calibrated probabilities.",
+    "unassigned_handling": "Zero-feature documents are retained in overall corpus counts but excluded from topic-share denominators.",
+    "scope": "Retrospective descriptive trends. These results do not establish causation or predict future research activity.",
+    "topic_numbering": "Topic numbers refer to the final full-corpus NMF K=10 model, not the earlier pilot model."
+  },
+  "annual_summary": {
+    "2018": {
+      "total_papers": 4736,
+      "modelled_papers": 4736,
+      "unassigned_papers": 0,
+      "largest_mean_share_topic": 7,
+      "largest_mean_share_pct": 18.40566062927246,
+      "dominant_topic_paper_counts": {
+        "1": 444,
+        "2": 333,
+        "3": 956,
+        "4": 377,
+        "5": 502,
+        "6": 619,
+        "7": 1067,
+        "8": 77,
+        "9": 206,
+        "10": 155
+      }
+    },
+    "2019": {
+      "total_papers": 8840,
+      "modelled_papers": 8839,
+      "unassigned_papers": 1,
+      "largest_mean_share_topic": 3,
+      "largest_mean_share_pct": 17.225133895874023,
+      "dominant_topic_paper_counts": {
+        "1": 927,
+        "2": 573,
+        "3": 1886,
+        "4": 681,
+        "5": 954,
+        "6": 911,
+        "7": 1812,
+        "8": 213,
+        "9": 549,
+        "10": 333
+      }
+    },
+    "2020": {
+      "total_papers": 11097,
+      "modelled_papers": 11097,
+      "unassigned_papers": 0,
+      "largest_mean_share_topic": 3,
+      "largest_mean_share_pct": 17.48146629333496,
+      "dominant_topic_paper_counts": {
+        "1": 1152,
+        "2": 720,
+        "3": 2349,
+        "4": 899,
+        "5": 1095,
+        "6": 1168,
+        "7": 2071,
+        "8": 460,
+        "9": 776,
+        "10": 407
+      }
+    },
+    "2021": {
+      "total_papers": 13087,
+      "modelled_papers": 13087,
+      "unassigned_papers": 0,
+      "largest_mean_share_topic": 3,
+      "largest_mean_share_pct": 19.927183151245117,
+      "dominant_topic_paper_counts": {
+        "1": 1171,
+        "2": 742,
+        "3": 3323,
+        "4": 899,
+        "5": 1237,
+        "6": 1145,
+        "7": 2237,
+        "8": 734,
+        "9": 983,
+        "10": 616
+      }
+    },
+    "2022": {
+      "total_papers": 13754,
+      "modelled_papers": 13754,
+      "unassigned_papers": 0,
+      "largest_mean_share_topic": 3,
+      "largest_mean_share_pct": 19.732624053955078,
+      "dominant_topic_paper_counts": {
+        "1": 1272,
+        "2": 700,
+        "3": 3466,
+        "4": 968,
+        "5": 1342,
+        "6": 1101,
+        "7": 1989,
+        "8": 880,
+        "9": 1221,
+        "10": 815
+      }
+    },
+    "2023": {
+      "total_papers": 16355,
+      "modelled_papers": 16355,
+      "unassigned_papers": 0,
+      "largest_mean_share_topic": 3,
+      "largest_mean_share_pct": 20.8941707611084,
+      "dominant_topic_paper_counts": {
+        "1": 1380,
+        "2": 729,
+        "3": 4347,
+        "4": 1046,
+        "5": 1381,
+        "6": 1236,
+        "7": 2084,
+        "8": 1121,
+        "9": 1393,
+        "10": 1638
+      }
+    },
+    "2024": {
+      "total_papers": 20076,
+      "modelled_papers": 20076,
+      "unassigned_papers": 0,
+      "largest_mean_share_topic": 3,
+      "largest_mean_share_pct": 21.298431396484375,
+      "dominant_topic_paper_counts": {
+        "1": 1239,
+        "2": 749,
+        "3": 5341,
+        "4": 989,
+        "5": 1502,
+        "6": 1318,
+        "7": 2117,
+        "8": 1343,
+        "9": 1667,
+        "10": 3811
+      }
+    }
+  },
+  "outputs": [
+    "yearly_topic_trends_long.csv",
+    "yearly_topic_trends_wide.csv",
+    "yearly_corpus_counts.csv"
+  ],
+  "charts_created": []
+}

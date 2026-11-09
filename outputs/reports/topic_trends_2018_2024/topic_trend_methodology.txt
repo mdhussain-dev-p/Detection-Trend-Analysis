@@ -1,0 +1,22 @@
+TOPIC DETECTION AND TREND ANALYSIS
+YEARLY RESEARCH TRENDS — 2018 TO 2024
+=====================================
+
+Final model: NMF, K=10, trained on the full filtered corpus.
+Topic numbers refer to the full-corpus model.
+
+Two annual measures are calculated:
+1. Dominant-topic share: percentage of papers assigned primarily
+   to a topic in a particular year.
+2. Mean topic activation share: average normalised NMF activation
+   for each topic across modelled papers in that year.
+
+Both measures are calculated using modelled papers as the topic
+denominator. Unassigned papers remain in annual corpus counts but
+are excluded from topic-share calculations.
+
+The mean activation shares sum to 100 percent for each year.
+NMF activations are not calibrated probabilities.
+
+This is retrospective descriptive analysis, not causal inference
+or forecasting.

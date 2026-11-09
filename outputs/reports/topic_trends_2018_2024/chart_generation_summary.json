@@ -1,0 +1,47 @@
+{
+  "phase": "Phase 10C - chart generation",
+  "status": "completed",
+  "years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "topic_count": 10,
+  "charts_created": [
+    "yearly_topic_composition_stacked.png",
+    "yearly_dominant_topic_trends.png",
+    "yearly_mean_topic_share_trends.png"
+  ],
+  "topic_labels": {
+    "1": "Supervised learning",
+    "2": "Adversarial robustness",
+    "3": "Predictive and general ML",
+    "4": "Bandits and online optimisation",
+    "5": "Reinforcement learning",
+    "6": "Gradient-based optimisation",
+    "7": "Deep neural networks",
+    "8": "Federated learning",
+    "9": "Graph neural networks",
+    "10": "Large language models"
+  },
+  "label_status": "Working labels derived from full-corpus topic terms; independent human confirmation is still pending.",
+  "source_files": [
+    "yearly_topic_trends_wide.csv",
+    "yearly_topic_trends_long.csv",
+    "yearly_corpus_counts.csv"
+  ],
+  "corpus_paper_counts": [
+    4736,
+    8840,
+    11097,
+    13087,
+    13754,
+    16355,
+    20076
+  ],
+  "elapsed_minutes": 0.02
+}
