@@ -146,9 +146,6 @@ The two final analysis modules are:
 python -m arxiv_topic_trends.models.analyze_topic_trends
 python -m arxiv_topic_trends.models.create_trend_charts
 ```
-
-Do not rerun a phase blindly if its output folder already exists. The project scripts were designed to protect previous results from accidental overwriting. Follow the phase-specific output checks before deciding whether a stage needs to run again.
-
 ## Important interpretation notes
 
 - The normalised NMF activations are **not calibrated probabilities**. They are relative weights within each document.
