@@ -1,0 +1,62 @@
+# Large local datasets and derived data. Keep these on the development machine.
+data/raw/*
+data/processed/*
+data/features/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/features/.gitkeep
+
+# Trained models and generated outputs are local by default.
+outputs/models/*
+!outputs/models/.gitkeep
+outputs/figures/*
+!outputs/figures/.gitkeep
+outputs/metrics/*
+!outputs/metrics/.gitkeep
+outputs/reports/*
+!outputs/reports/.gitkeep
+
+# Allow the final, curated trend-report artefacts into the portfolio repository.
+!outputs/reports/topic_trends_2018_2024/
+outputs/reports/topic_trends_2018_2024/*
+!outputs/reports/topic_trends_2018_2024/yearly_topic_composition_stacked.png
+!outputs/reports/topic_trends_2018_2024/yearly_dominant_topic_trends.png
+!outputs/reports/topic_trends_2018_2024/yearly_mean_topic_share_trends.png
+!outputs/reports/topic_trends_2018_2024/yearly_topic_trends_long.csv
+!outputs/reports/topic_trends_2018_2024/yearly_topic_trends_wide.csv
+!outputs/reports/topic_trends_2018_2024/yearly_corpus_counts.csv
+!outputs/reports/topic_trends_2018_2024/topic_trend_summary.json
+!outputs/reports/topic_trends_2018_2024/topic_trend_methodology.txt
+!outputs/reports/topic_trends_2018_2024/chart_generation_summary.json
+
+# Python environments, caches, and build files.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Notebook and editor files.
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local documentation backups
+phase11_backup_*/
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+secrets/
+.streamlit/secrets.toml

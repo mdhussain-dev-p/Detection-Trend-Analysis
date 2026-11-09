@@ -1,0 +1,17 @@
+# Install only after checking the Python version on the development laptop.
+# For the first ingestion stage, the program uses Python's standard library.
+# These are the libraries planned for the later analysis stages.
+numpy
+pandas
+scikit-learn
+nltk
+gensim
+matplotlib
+pytest
+
+# Optional notebook environment:
+# jupyterlab
+# ipykernel
+
+# Optional alternative NLP lemmatiser (not required for the first build):
+# spacy
